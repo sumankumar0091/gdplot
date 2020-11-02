@@ -1,1 +1,1 @@
-from greendeck_plot import create_chart
+from gdplot import create_chart
