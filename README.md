@@ -27,14 +27,17 @@ On you first usage of gsheets with this file (holding the client secrets), your 
 If this does not work refer to link under See also section. 
 
 # Usage 
-''
->import gdplot as gd
+```
+Syntax:
+> import gdplot as gd
 > gd.create_chart($credentials, $URL)
-e.g.
->gdplot.create_chart(/gcp_credentials/client_secret.json, https://docs.google.com/spreadsheets/d/1pzmXgLMMMWdsfuNuq3a15tP7kbsHpijVAU0BGAJrOAP/edit#gid=0)
+```
 
-''
-
+```
+e.g.:
+> import gdplot as gd
+> gd.create_chart(/gcp_credentials/client_secret.json, https://docs.google.com/spreadsheets/d/1pzmXgLMMMWdsfuNuq3a15tP7kbsHpijVAU0BGAJrOAP/edit#gid=0)
+```
 ### See also
 ''
 https://medium.com/swlh/google-drive-api-with-python-part-i-set-up-credentials-1f729cb0372b 
